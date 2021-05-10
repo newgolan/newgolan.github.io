@@ -2,7 +2,7 @@
 title: "「SF-PLF」18 UseAuto"
 subtitle: "Programming Language Foundations - Theory And Practice Of Automation In Coq Proofs"
 layout: post
-author: "Axming"
+author: "Hux"
 header-style: text
 hidden: true
 tags:
@@ -19,6 +19,7 @@ tags:
 ### Strength of Proof Search
 
 > four proof-search tactics: `auto`, `eauto`, `iauto` and `jauto`.
+
 
 
 
@@ -53,6 +54,7 @@ tags:
 
 
 ###
+
 
 ---
 

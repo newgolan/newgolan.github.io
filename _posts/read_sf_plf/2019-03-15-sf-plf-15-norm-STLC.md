@@ -2,7 +2,7 @@
 title: "「SF-PLF」15 Norm"
 subtitle: "Programming Language Foundations - Normalization of STLC"
 layout: post
-author: "Axming"
+author: "Hux"
 header-style: text
 hidden: true
 tags:
