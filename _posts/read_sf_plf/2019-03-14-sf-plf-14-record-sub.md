@@ -40,5 +40,3 @@ for Record, can compiler reorder the fields? (SML and OCaml)
 
 
 
-
-```
