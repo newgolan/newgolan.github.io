@@ -12,7 +12,7 @@ tags:
   - 笔记
 ---
 
-> Hux: this chapter is very similar to TAPL - ch13 References
+> Axming: this chapter is very similar to TAPL - ch13 References
 > But under a "formal verification" concept, it's more interesting and practical and push you to think about it!
 
 
@@ -87,11 +87,11 @@ Inductive tm : Type :=
                            Gamma |- t1 : T1
                        ------------------------                         (T_Ref)
                        Gamma |- ref t1 : Ref T1
-    
+
                         Gamma |- t1 : Ref T11
                         ---------------------                         (T_Deref)
                           Gamma |- !t1 : T11
-    
+
                         Gamma |- t1 : Ref T11
                           Gamma |- t2 : T11
                        ------------------------                      (T_Assign)
@@ -133,7 +133,7 @@ Pragmatics
 can be desugar to
 
     (\x:Unit. !r) (r:=succ(!r)).
-
+    
 then we can write some "imperative programming"
 
     r:=succ(!r); 
@@ -265,7 +265,7 @@ Operational Semantics
 > we use the word _location_ here to prevent from modeling _pointer arithmetic_, which is un-trackable by most type system
 
 location `n` is `float` doesn't tell you anything about location `n+4`...
-
+ 
 
 
 ### Stores
@@ -277,7 +277,7 @@ we defined `replace` as `Fixpoint` since it's computational and easier. The cons
 ### Reduction
 
 
-
+   
 
 
 Typing

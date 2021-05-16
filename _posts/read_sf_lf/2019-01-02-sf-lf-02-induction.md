@@ -2,7 +2,7 @@
 title: "「SF-LC」2 Induction"
 subtitle: "Logical Foundations - Proof by Induction"
 layout: post
-author: "Hux"
+author: "Axming"
 header-style: text
 hidden: true
 tags:
