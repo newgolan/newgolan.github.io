@@ -57,6 +57,9 @@ https://github.com/kitian616/jekyll-TeXt-theme
 
 			{% comment %} group by year {% endcomment %}
 			{%- assign _currentdate = _article.date | date: '%Y' -%}
+			{%- assign _createmonthdate = _article.date | date: '%m' -%}
+			{%- assign _createdate = _article.date | date: '%Y-%m-%d %H:%M:%S' -%}
+
 			{%- if _currentdate != _date -%}
 				{%- unless forloop.first -%}</section>{%- endunless -%}
 				<section>
@@ -73,7 +76,7 @@ https://github.com/kitian616/jekyll-TeXt-theme
 				        </h2>
 				        {% if _article.subtitle %}
 				        <h3 class="post-subtitle">
-				            {{ _article.subtitle }}
+				            {{ _article.subtitle }} &emsp; {{ _createdate }}
 				        </h3>
 				        {% endif %}
 				    </a>
@@ -81,6 +84,7 @@ https://github.com/kitian616/jekyll-TeXt-theme
 				</div>
 			{%- if forloop.last -%}</section>{%- endif -%}
 			{% endfor %}
+
 			</div>
 		</div>
 	</div>
